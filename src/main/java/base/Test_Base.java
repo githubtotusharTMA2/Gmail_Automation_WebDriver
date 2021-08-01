@@ -23,7 +23,7 @@ public class Test_Base
 	{
 		try
 		{
-			FileInputStream fis = new FileInputStream("E:\\QA_Infotech\\Training_Works\\Eclipse\\Workspace_2\\Projects\\Gmail_Mail_Automation\\src\\main\\java\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("E:\\QA_Infotech\\Training_Works\\Eclipse\\Utils\\Gmail_Automation_WebDriver\\config.properties");
 			prop = new Properties();
 			prop.load(fis);
 		}
